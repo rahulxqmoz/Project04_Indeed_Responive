@@ -1,0 +1,412 @@
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    font-family:   'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif ;
+}
+
+body{
+
+    background: #fff;
+}
+
+.nav-back{
+    background: #fff;
+    border-bottom: 1px solid  rgb(174 184 185);
+    height: 80px;
+    font-size: 15px;
+}
+.Indeedlogo{
+    margin-right: 20px;
+    height: 30px;
+    width: 120px;
+
+}
+.Indeedlogo2{
+    margin-right: 20px;
+    height: 50px;
+   
+
+}
+
+@media screen and (min-width: 300px) {
+    .signupbtn{
+        display: inline;
+    }
+}
+section{
+    
+    color: #fff;
+    min-height: 65vh;
+}
+.searchbar{
+    display: flex;
+    justify-content: space-evenly;
+}
+.jobsearch{
+    align-items: center;
+    justify-content: center;
+   padding: 10px 15px;
+}
+.jobsearch input{
+    width: 300px;
+    padding: 1%;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    margin-left: 2%;
+}
+.icon i{
+    color: black;
+}
+.borderbox{
+    border-top: 1px solid rgb(148, 138, 138);
+    border-bottom: 1px solid rgb(148, 138, 138);
+    border-left: 1px solid rgb(148, 138, 138);
+    height: 60px;
+    width: 350px;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    align-items: center;
+    justify-content: flex-start;
+    display: flex;
+    
+}
+.borderboxloc{
+    border-top: 1px solid rgb(148, 138, 138);
+    
+    border-bottom: 1px solid rgb(148, 138, 138);
+    height: 60px;
+    width: 350px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    align-items: center;
+    justify-content: flex-start;
+    display: flex;
+
+}
+.borderbox input::placeholder {
+   padding: 20px;
+}
+.borderboxloc input::placeholder {
+    padding: 20px;
+ }
+.row.justify-content-center.sec1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.row.justify-content-center.sec1 a,
+.row.justify-content-center.sec1 p {
+    margin: 0; /* To remove any default margin */
+}
+.row.justify-content-center.sec1 a{
+    font-weight: 700;
+    text-decoration: none ;
+}
+.postresume{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.borderboxbtn{
+    border-top: 1px solid rgb(148, 138, 138);
+    border-right: 1px solid rgb(148, 138, 138);
+    border-bottom: 1px solid rgb(148, 138, 138);
+    border-top-right-radius: 6px;
+    border-bottom-right-radius:6px ;
+    
+    height: 60px;
+    width: 150px;
+    
+}
+
+.borderboxbtn button{
+width: 120px;
+height: 40px;
+}
+
+
+
+
+  footer{
+ 
+    border-top: 1px solid rgb(148, 138, 138);
+    height: 150px;
+  }
+
+  footer ul{
+    padding: 10px 0; 
+    max-width: 80%;
+    display: flex;
+    flex-wrap: wrap; 
+    
+   
+  }
+
+  footer li{
+    font-size: 14px;
+    min-width: 100px; 
+    padding: 5px 10px; 
+
+    list-style: none;
+   
+  }
+
+  .btnsearch{
+   
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid rgb(174 184 185);
+   
+    
+  }
+  #btnjobfeed{
+    font-weight: bold;
+    border-bottom: 2px solid blue;
+  }
+  .btnsearch button{
+    margin-top: 35px;
+    border: 0;
+    background: none;
+    width: 200px;
+    height: 40px;
+  }
+
+  .recentsearches{
+
+    justify-content: center;
+    display: none;
+    place-items: center;
+
+  }
+  .recentsearchesdiv{
+
+    margin-top: 15px;
+    height: 50px;
+    width: 50%;
+    border-bottom: 1px solid rgb(174 184 185);
+
+    margin-bottom: 25px;
+    
+  }
+ 
+  .recentsearchesdiv p {
+    margin: 0; /* Reset margin for paragraphs */
+}
+
+.recentsearchesdiv p:first-child {
+    margin-bottom: 2px; /* Add margin to bottom of first paragraph */
+}
+
+
+.job-tab{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.job-container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+   
+  }
+  
+  .job-description {
+    flex: 1;
+    padding: 20px;
+    background-color: #fff;
+    margin-left: 10px;
+    color: black;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    box-sizing: border-box; 
+    overflow: hidden; 
+  }
+  
+  .job-list {
+    flex: 1;
+    overflow-y: auto;
+    padding-left: 100px;
+    position: sticky;
+    top: 0;
+    margin-right: 10px; 
+    
+
+  }
+  
+  .job {
+    padding: 20px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    margin-top: 10px;
+    color: black;
+    height: 250px;
+    border-radius: 6px;
+    width: calc(100% - 20px); 
+    box-sizing: border-box; 
+    overflow: hidden; 
+
+  }
+  
+  .job:hover {
+    background-color: #f9f9f9;
+  }
+  .job-list::-webkit-scrollbar {
+    display: none;
+  }
+
+  .job p{
+    margin: 0;
+    font-size: 14px;
+  }
+  .job ul{
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  .apply p{
+   margin: 5px;
+  }
+.apply a{
+    text-decoration: none;
+}
+  .apply button{
+    
+    
+    height: 50px;
+   }
+   .btnicon{
+    margin-top: 15px;
+    margin-left: 10px;
+    width: 50px;
+    height: 50px;
+    border: 0;
+    outline: 0;
+    border-radius: 6px;
+   }
+   .locdesc{
+    margin-top: 20px;
+    font-size: 17px;
+    color:#2d2d2d;
+    
+   }
+   .locdesc h4{
+     font-weight: 600;
+ 
+   }
+   .navbar-nav li:hover{
+    
+    border-bottom: 2px solid blue;
+   }
+
+   .borderbox.focused {
+    border: 2px solid blue;
+    border-bottom: 4px solid blue;
+  }
+  .borderboxloc.focused{
+    border: 2px solid blue;
+    border-bottom: 4px solid blue;
+  }
+
+  .errormsg{
+    justify-content: center;
+    display: flex;
+    margin-bottom: 20px;
+    background-color: rgb(254, 238, 239);
+     height: 60px;
+     border-radius: 6px;
+     border: 1px solid rgb(249, 197, 198);
+     align-items: center;
+
+ }
+ 
+  .errorlabel{
+    display: none;
+  }
+
+  .errormsg label{
+     color: rgb(58, 38, 38);
+     
+    
+     text-align: center;
+   
+
+  }
+  .errormsg i{
+    color: red;
+    
+    margin-right: 10px;
+  font-size: large;
+  
+
+ }
+   
+
+   @media only screen and (max-width: 1000px) {
+
+    .navbar .signinbtn{
+        display: none;
+    }
+
+    .navbar .employebtn {
+        display: none;
+    }
+
+    .navbar .employebtn::after {
+        content: "Employeers"; 
+        border-left: 1px solid rgb(209, 209, 209);
+        padding-left: 10px;
+    }
+    .borderboxbtn{
+        border:none;
+        border-radius: 6px;
+        box-shadow:none;
+        height: 60px;
+        width: 100%;
+       
+    }
+    .borderboxbtn button{
+        width: 100%;
+        height: 40px;
+        box-shadow: none;
+    }
+    .borderbox{
+       display: block;
+       width:100%;
+       box-shadow:none;
+       border: 1px solid rgb(36, 32, 32);
+       border-top-left-radius: 6px;
+       border-top-right-radius: 6px;
+       border-bottom-left-radius: 0;
+    }
+    .borderboxloc{
+        display: block;
+        width:100%;
+        box-shadow:none;
+        border: 1px solid rgb(36, 32, 32);
+        border-bottom-left-radius: 6px;
+        border-bottom-right-radius: 6px;
+       
+    }
+    .job-description{
+        display: none;
+    }
+    .job {
+        height: 250px;
+        width: 100%;
+        padding: 10px; 
+        margin-top: 10px; 
+    }
+    
+    .job-list {
+        padding-left: 0; 
+    }
+   
+  }
+
+  
